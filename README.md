@@ -1,4 +1,4 @@
-#Logs project
+## Logs project
 Udacity FSND logs project (a postgresql exercise)
 
 This code looks to interact with some data by making queries to answer questions about contents in a news database. The tables included in the database consist of:
@@ -10,7 +10,7 @@ This code looks to interact with some data by making queries to answer questions
 We'll use python and the [psycopg2](http://initd.org/psycopg/) package to interact with the database. The project also makes use of the Vagrant/VirtualBox VM environment. 
 
 ----
-#Getting started
+## Getting started
 
 **I. Setting up VM**
 
