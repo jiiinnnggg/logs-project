@@ -61,7 +61,7 @@ def question3(query):
     for x in results:
         print x[0].strftime("%B %-d, %Y"), "-", "{:.3%}".format(x[1]), "\n"
 
-
-question1(q1_query)
-question2(q2_query)
-question3(q3_query)
+if __name__ == '__main__':
+    question1(q1_query)
+    question2(q2_query)
+    question3(q3_query)
